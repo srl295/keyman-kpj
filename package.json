@@ -4,7 +4,7 @@
   "description": "Keyman KPJ Extension",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.94.0"
+		"vscode": "^1.74.0"
   },
   "categories": [
     "Other"
@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "keyman-kpj.helloWorld",
+				"command": "extension.helloWorld",
         "title": "Hello World"
       }
     ]
