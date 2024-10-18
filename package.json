@@ -17,6 +17,15 @@
 				"command": "keyman.compileProject",
         "title": "Keyman: Compile Project"
       }
+    ],
+    "taskDefinitions": [
+      {
+        "type": "kpj",
+        "required": [ "task" ],
+        "properties": {
+        },
+        "when": "processExecutionSupported"
+      }
     ]
   },
   "scripts": {
