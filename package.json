@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-				"command": "extension.helloWorld",
-        "title": "Hello World"
+				"command": "keyman.compileProject",
+        "title": "Keyman: Compile Project"
       }
     ]
   },

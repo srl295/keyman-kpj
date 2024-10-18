@@ -10,7 +10,9 @@
 			"type": "extensionHost",
 			"request": "launch",
 			"args": [
-				"--extensionDevelopmentPath=${workspaceFolder}"
+				"--extensionDevelopmentPath=${workspaceFolder}",
+				"--disable-extensions",
+				"/Users/srl295/src/keymanapp/ldml_test"
 			],
 			"outFiles": [
 				"${workspaceFolder}/out/**/*.js"
